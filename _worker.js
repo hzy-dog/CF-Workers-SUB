@@ -10,20 +10,7 @@ let SUBUpdateTime = 6; //自定义订阅更新时间，单位小时
 
 //节点链接 + 订阅链接
 let MainData = `
-vless://d04b0ea2-d773-477c-8c31-6d84341e762f@3x-ui.hzy40214.top:39729?type=tcp&security=tls&fp=&alpn=h2%2Chttp%2F1.1#Test-xzlrgi02
-vmess://ewogICJ2IjogIjIiLAogICJwcyI6ICJtbC03NWp3Z2lxMSIsCiAgImFkZCI6ICIzeC11aS5oenk0MDIxNC50b3AiLAogICJwb3J0IjogODA4MCwKICAiaWQiOiAiMzRhZDEyNjUtYjA2Yy00MzIxLWJkYjAtZTk0OTFhYmQzYzdkIiwKICAibmV0IjogInRjcCIsCiAgInR5cGUiOiAiaHR0cCIsCiAgInRscyI6ICJub25lIiwKICAicGF0aCI6ICIvIiwKICAiaG9zdCI6ICJ3eC5xbG9nby5jbiIKfQ==
-vless://86eed719-9ce0-45c1-8ae1-d17680fa3580@immortalwrt.hzy40214.top:38955?type=tcp&security=none#op-v0jewzdl
-vless://b7339179-2024-4e49-a83b-3ea8f03113f9@immortalwrt.hzy40214.top:24114?type=tcp&security=reality&pbk=qh1BDKkm4fdQTUIBG24JdGG7WSMGsn51TfdzdKqwCAI&fp=firefox&sni=yahoo.com&sid=132a0543&spx=%2F#ml-eq3hkaid
-https://3zkme.no-mad-world.club/link/ayHauj4jzN2l6knh?sub=3&extend=1
-https://feiniaoyun07.life/api/v1/client/subscribe?token=b5a3b4f0000ae35597ad9f5b7664789d
-https://v2ray.hzy40214.top/sub/icook.hk?max=200&original=yes
-https://x-ui.hzy40214.top:8000/sub/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ2cHMiLCJhY2Nlc3MiOiJzdWJzY3JpcHRpb24iLCJpYXQiOjE3MTIyMTIzNjR9.4_O_t4769X9Wn2F-aHbwpdcx6c8OceqEWg0zEiqbMTE
-https://v12.hzy40214.top/hzy
-https://v16-sub.hzy40214.top/v16-hzy
-http://notls.hzy40214.top/b7cf579a-db81-4f20-a0e3-94fc419bd309
-https://moistr.freenods.sbs/free?host=v4.hzy40214.top&uuid=587a48e7-a67a-4027-88e0-768ff47f184a
-https://warp-clash.hzy40214.top/api/clash?best=true&randomName=true&proxyFormat=full&ipv6=false&key=1U420Wcv-6oRt820Q-53JEhj69
-https://WARP.fxxk.dedyn.io/sub?key=1U420Wcv-6oRt820Q-53JEhj69
+`
 
 
 //请将机场订阅链接填入上方
