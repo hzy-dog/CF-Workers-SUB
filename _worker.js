@@ -4,16 +4,27 @@
 let mytoken = 'auto'; //可以随便取，或者uuid生成，https://1024tools.com/uuid
 let BotToken =''; //可以为空，或者@BotFather中输入/start，/newbot，并关注机器人
 let ChatID =''; //可以为空，或者@userinfobot中获取，/start
-let TG = 0; //小白勿动， 开发者专用，1 为推送所有的访问信息，0 为不推送订阅转换后端的访问信息与异常访问
-let FileName = 'CF-Workers-SUB';
+let TG = 1; //小白勿动， 开发者专用，1 为推送所有的访问信息，0 为不推送订阅转换后端的访问信息与异常访问
+let FileName = 'hzy-Workers-SUB';
 let SUBUpdateTime = 6; //自定义订阅更新时间，单位小时
 
 //节点链接 + 订阅链接
 let MainData = `
-vless://b7a392e2-4ef0-4496-90bc-1c37bb234904@cf.090227.xyz:443?encryption=none&security=tls&sni=edgetunnel-2z2.pages.dev&fp=random&type=ws&host=edgetunnel-2z2.pages.dev&path=%2F%3Fed%3D2048#%E5%8A%A0%E5%85%A5%E6%88%91%E7%9A%84%E9%A2%91%E9%81%93t.me%2FCMLiussss%E8%A7%A3%E9%94%81%E6%9B%B4%E5%A4%9A%E4%BC%98%E9%80%89%E8%8A%82%E7%82%B9
-https://sub.xf.free.hr/auto
-https://hy2sub.pages.dev
-`
+vless://d04b0ea2-d773-477c-8c31-6d84341e762f@3x-ui.hzy40214.top:39729?type=tcp&security=tls&fp=&alpn=h2%2Chttp%2F1.1#Test-xzlrgi02
+vmess://ewogICJ2IjogIjIiLAogICJwcyI6ICJtbC03NWp3Z2lxMSIsCiAgImFkZCI6ICIzeC11aS5oenk0MDIxNC50b3AiLAogICJwb3J0IjogODA4MCwKICAiaWQiOiAiMzRhZDEyNjUtYjA2Yy00MzIxLWJkYjAtZTk0OTFhYmQzYzdkIiwKICAibmV0IjogInRjcCIsCiAgInR5cGUiOiAiaHR0cCIsCiAgInRscyI6ICJub25lIiwKICAicGF0aCI6ICIvIiwKICAiaG9zdCI6ICJ3eC5xbG9nby5jbiIKfQ==
+vless://86eed719-9ce0-45c1-8ae1-d17680fa3580@immortalwrt.hzy40214.top:38955?type=tcp&security=none#op-v0jewzdl
+vless://b7339179-2024-4e49-a83b-3ea8f03113f9@immortalwrt.hzy40214.top:24114?type=tcp&security=reality&pbk=qh1BDKkm4fdQTUIBG24JdGG7WSMGsn51TfdzdKqwCAI&fp=firefox&sni=yahoo.com&sid=132a0543&spx=%2F#ml-eq3hkaid
+https://3zkme.no-mad-world.club/link/ayHauj4jzN2l6knh?sub=3&extend=1
+https://feiniaoyun07.life/api/v1/client/subscribe?token=b5a3b4f0000ae35597ad9f5b7664789d
+https://v2ray.hzy40214.top/sub/icook.hk?max=200&original=yes
+https://x-ui.hzy40214.top:8000/sub/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ2cHMiLCJhY2Nlc3MiOiJzdWJzY3JpcHRpb24iLCJpYXQiOjE3MTIyMTIzNjR9.4_O_t4769X9Wn2F-aHbwpdcx6c8OceqEWg0zEiqbMTE
+https://v12.hzy40214.top/hzy
+https://v16-sub.hzy40214.top/v16-hzy
+http://notls.hzy40214.top/b7cf579a-db81-4f20-a0e3-94fc419bd309
+https://moistr.freenods.sbs/free?host=v4.hzy40214.top&uuid=587a48e7-a67a-4027-88e0-768ff47f184a
+https://warp-clash.hzy40214.top/api/clash?best=true&randomName=true&proxyFormat=full&ipv6=false&key=1U420Wcv-6oRt820Q-53JEhj69
+https://WARP.fxxk.dedyn.io/sub?key=1U420Wcv-6oRt820Q-53JEhj69
+
 
 //请将机场订阅链接填入上方
 let urls = [];// https://subs.zeabur.app/clash , https://neko-warp.nloli.xyz/neko_warp.yaml
